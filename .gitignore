@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# If you're using PostgreSQL or another database, you might want to add backup files
+*.backup
+
+# Virtualenv
+*.venv
+venv/
+ENV/
+
+# IDE - PyCharm, VS Code, etc.
+.idea/
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Node modules (if you're using frontend tools like webpack or browserify)
+node_modules/
+
+# Other tools and plugins
+*.swp
+*.swo
